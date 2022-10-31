@@ -10,7 +10,16 @@ Dada la función strictEquals
 Cuando se comparan <A> y <B>
 Entonces el resultado será <Result>
     
-![Image text]([[https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg](https://github.com/VictorOliva/202210-W4-victor-oliva/blob/main/assets/Readme.jpg)](https://raw.githubusercontent.com/VictorOliva/202210-W4-victor-oliva/main/assets/Readme.jpg))
+| A       | B     | RESULT |                   |
+| ------- | ----- | ------ | ----------------- |
+| 1       | 1     | true   |                   |
+| NaN     | NaN   | false  | // Rule Exception |
+| 0       | -0    | true   | // Rule Exception |
+| -0      | 0     | true   | // Rule Exception |
+| 1       | "1"   | false  |                   |
+| true    | false | false  |                   |
+| false   | false | true   |                   |
+| "Water" | "oil" | false  |
 
 Como adds adicionales utilizamos:
 
