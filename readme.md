@@ -9,6 +9,8 @@ Testeamos la función desde otro fichero con este set de pruebas:
 Dada la función strictEquals
 Cuando se comparan <A> y <B>
 Entonces el resultado será <Result>
+    
+![Image text]([https://github.com/zzuljs/CppLearning/blob/master/CppLearning/raw/master/Itachi.jpg](https://github.com/VictorOliva/202210-W4-victor-oliva/blob/main/assets/Readme.jpg))
 
 Como adds adicionales utilizamos:
 
