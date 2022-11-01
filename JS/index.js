@@ -1,3 +1,3 @@
-import { strictEquals } from './strictEquals.js';
+import strictEquals from './strictEquals';
 
 strictEquals();
